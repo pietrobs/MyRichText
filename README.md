@@ -1,5 +1,7 @@
 # MyRichText
 
+![Print](https://github.com/pietrobs/MyRichTextWithVanillaJS/blob/master/assets/rich-text.png?raw=true)
+
 ## To Do
 
 - [x] Bold
