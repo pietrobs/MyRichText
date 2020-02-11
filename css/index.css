@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #CCC;
+}
+
+div#editor{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+
+div.editor{
+    width: 100%;
+    height: 60vh;
+    background: white;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+div.toolbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+button.editor-button{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #333;
+    color: black;
+    box-shadow: 3px 3px 3px #333;
+    margin: 5px;
+}
+
+button.active{
+    box-shadow: none;
+    background-color: #CCC;
+}
+
+button.editor-button:active{
+    border: none;
+}
