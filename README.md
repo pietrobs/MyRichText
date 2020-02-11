@@ -1,6 +1,6 @@
 # MyRichText
 
-##To Do
+## To Do
 
 - [x] Bold
 - [x] Italic
@@ -17,7 +17,7 @@
 - [ ] Indent/Outdent
 - [ ] Clear format
 
-##Improvements
+## Improvements
 
 - [ ] Take functions applied to the text and update the toolbar state
 - [ ] CreateSelection function to generate select input
